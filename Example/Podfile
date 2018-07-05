@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLCategories_Example' do
+  pod 'WLCategories', :path => '../'
+
+  target 'WLCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
