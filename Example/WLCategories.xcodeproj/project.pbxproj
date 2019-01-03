@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8783F6D04199AFEBDAA7294D /* Pods_WLCategories_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF59064AB9A87040BF331EB /* Pods_WLCategories_Example.framework */; };
+		CF72142F215A2F3C005B28C4 /* WLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF72142E215A2F3C005B28C4 /* WLSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		244F116DCBD0FF6A34191235 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		244F116DCBD0FF6A34191235 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		333C10386EEF209AEEDE4829 /* Pods_WLCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E0AE3F6F361919BCC0CAC7 /* Pods-WLCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLCategories_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLCategories_Example/Pods-WLCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		44EF93415FB9ADEC39583BD5 /* Pods-WLCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLCategories_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLCategories_Tests/Pods-WLCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,12 +62,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		619CD2A5D5D1BF1B256C7BDF /* Pods-WLCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLCategories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLCategories_Tests/Pods-WLCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		65B9B51E402628F2A0146B45 /* WLCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WLCategories.podspec; path = ../WLCategories.podspec; sourceTree = "<group>"; };
+		65B9B51E402628F2A0146B45 /* WLCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLCategories.podspec; path = ../WLCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FF59064AB9A87040BF331EB /* Pods_WLCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B84718FD8DCB9EE8328D0D02 /* Pods-WLCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLCategories_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLCategories_Example/Pods-WLCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BCC4AFEC26EC9B76510C4934 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCC4AFEC26EC9B76510C4934 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CF72142D215A2F3C005B28C4 /* WLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSecondViewController.h; sourceTree = "<group>"; };
+		CF72142E215A2F3C005B28C4 /* WLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				CF72142D215A2F3C005B28C4 /* WLSecondViewController.h */,
+				CF72142E215A2F3C005B28C4 /* WLSecondViewController.m */,
 			);
 			name = "Example for WLCategories";
 			path = WLCategories;
@@ -247,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "nomeqc@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PMP72N64FV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -319,10 +327,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WLCategories_Example/Pods-WLCategories_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/WLCategories/WLCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WLCategories.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WLAppDelegate.m in Sources */,
+				CF72142F215A2F3C005B28C4 /* WLSecondViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -485,6 +496,7 @@
 			baseConfigurationReference = 39E0AE3F6F361919BCC0CAC7 /* Pods-WLCategories_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLCategories/WLCategories-Prefix.pch";
 				INFOPLIST_FILE = "WLCategories/WLCategories-Info.plist";
@@ -500,6 +512,7 @@
 			baseConfigurationReference = B84718FD8DCB9EE8328D0D02 /* Pods-WLCategories_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLCategories/WLCategories-Prefix.pch";
 				INFOPLIST_FILE = "WLCategories/WLCategories-Info.plist";

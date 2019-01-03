@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - WLCategories (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - WLCategories (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  WLCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  WLCategories: 4199b62cc9158c36bd105c0be0297dd928be7519
+
+PODFILE CHECKSUM: 376c083b3ac1a45546d8caf8c835a26c79d17869
+
+COCOAPODS: 1.5.0

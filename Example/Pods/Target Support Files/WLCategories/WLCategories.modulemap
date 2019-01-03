@@ -1,0 +1,6 @@
+framework module WLCategories {
+  umbrella header "WLCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}
